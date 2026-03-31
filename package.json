@@ -1,0 +1,32 @@
+{
+  "name": "liquidpark",
+  "version": "1.0.0",
+  "description": "This is Liquidpark System",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "liquidpark"
+  ],
+  "author": "liquidlab",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.34",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.8",
+    "node-schedule": "^2.0.0",
+    "socket.io": "^4.7.2"
+  }
+}
